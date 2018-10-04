@@ -9,8 +9,5 @@ def fibo(number):
     return lst
 
 
-
-
-
 fibo(3)
 fibo(4)
