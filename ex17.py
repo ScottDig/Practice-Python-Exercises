@@ -9,5 +9,6 @@ soup = BeautifulSoup(data.text, 'html.parser')
 print('The homepage is...\n' + soup.title.text + '\n')
 
 print('These are the the titles on the webpage...\n')
+# needed to inspect html file first to identify correct tag for titles
 for title in soup.find_all('h2'):
     print(title.string)
